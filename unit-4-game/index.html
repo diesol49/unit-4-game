@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- this is the box for the description -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Crystals Collector</h1>
+                        <p class="lead">You will be given a random number at the start of the game.
+                            <br>
+                            There are four crystals below. By clicking on a crystal you will add a specific amount of
+                            points to your total score.
+                            <br>
+                            You win the game by matching your total score to random number, you lose the game if you
+                            total score goes above the random number.
+                            <br>
+                            The value of each crystal is hidden from you until you click on it.
+                            <br>
+                            Each time when the game starts, the game will change the values of each crystal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Generate the the random number between 1-100 here -->
+        <div class="row">
+            <div class="col-6">
+                <div class="card text-white bg-success mb-3" style="max-width: 8rem;">
+                    <div class="card-header">Score:<span id="score"></span></div>
+                </div>
+            </div>
+
+            <div class="col-6">
+                <div class="card text-white bg-success mb-3" style="max-width: 12rem;">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Crystals that each generate a random number between 1-12 -->
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="blue" style="width: 8rem;">
+                        <img src="assets/images/bluecrystal.jpg" class="card-img-top" alt="blue">
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="gold" style="width: 8rem;">
+                        <img src="assets/images/goldcrystal.jpg" class="card-img-top" alt="gold">
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="green" style="width: 8rem;">
+                        <img src="assets/images/greencrystal.jpg" class="card-img-top" alt="green">
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="red" style="width: 8rem;">
+                        <img src="assets/images/redcrystal.jpg" class="card-img-top" alt="red">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Keep track of your points from the crystals selected -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card text-white bg-info mb-3" style="max-width: 12rem;">
+                    <div class="card-header">Your Score:<span id="userScore"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Box that will keep track of wins and losses -->
+
+
+
+
+
+
+</body>
+
+</html>
