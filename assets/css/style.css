@@ -1,0 +1,54 @@
+
+body {
+	background: rgb(129, 129, 101);
+	margin: 70px;
+	text-align: center;
+	cursor: cell;
+}
+
+p {
+	font-size: 20px;
+	line-height: .9;
+}
+
+h1 {
+	font-size: 70px;
+	letter-spacing: 5px;
+	color: rgb(0, 153, 255);
+
+}
+
+h3 {
+	margin-top: 30px;
+	font-size: 25px;
+	color: rgb(218, 226, 219);
+}
+
+#crystals {
+	margin: -20px;
+	margin-bottom: 30px;
+}
+
+#targetNumber,
+#yourNumber,
+#wins,
+#losses {
+	margin-top: -10px;
+}
+
+#paragraph {
+	background: rgba(9, 76, 114, 0.582);
+	color: aliceblue;
+}
+
+.board {
+	background-color: rgb(88, 58, 116);
+}
+
+#crystal1,
+#crystal2,
+#crystal3,
+#crystal4 {
+	width: 200px;
+	height: 200px;
+}
